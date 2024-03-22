@@ -31,7 +31,7 @@ lista2.Add(9);
 lista2.Add(0);
 lista2.Remove(2);
 
-foreach (var numero in lista2)
+foreach (int numero in lista2)
 {
     Console.WriteLine(numero);
 }
