@@ -15,14 +15,14 @@ using Interfaces.Models;
 //bebidaAlcoholica.MaxRecomendado();
 //bebidaAlcoholica2.MaxRecomendado();
 
-class Program
+internal class Program
 {
     static void Main(string[] args)
     {
         var bebidaAlcoholica = new Vino("Mojito", 100);
         var bebidaAlcoholica2 = new Cerveza(250);
         MostrarRecomendacion(bebidaAlcoholica);
-        MostrarRecomendacion(bebidaAlcoholica2); 
+        MostrarRecomendacion(bebidaAlcoholica2);
     }
 
     static void MostrarRecomendacion(IBebidaAlcoholica bebida)
