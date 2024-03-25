@@ -15,7 +15,6 @@ namespace _5_ConexionDB.Models
 
             string query = "SELECT * FROM public.cerveza ORDER BY id ASC"; // Ejemplo de consulta SQL
 
-
             try
             {
                 using (NpgsqlConnection connection = new NpgsqlConnection(connectionString))
@@ -54,5 +53,7 @@ namespace _5_ConexionDB.Models
 
             return cervezas;
         }
+
+
     }
 }

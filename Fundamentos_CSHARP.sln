@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Arreglos_Listas", "3_Arre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Interfaces", "4_Interfaces\4_Interfaces.csproj", "{7FE88D6C-A124-4E49-8FA3-82A02A78B1F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_ConexionDB", "5_ConexionDB\5_ConexionDB.csproj", "{067B0D4F-91B9-4C8B-A906-06D43CFAFDC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_ConexionDB", "5_ConexionDB\5_ConexionDB.csproj", "{067B0D4F-91B9-4C8B-A906-06D43CFAFDC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_DB_Crear_Editar_Eliminar", "6_DB_Crear_Editar_Eliminar\6_DB_Crear_Editar_Eliminar.csproj", "{E3DF8094-BBFB-4B98-94C9-D23B5B515DE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{067B0D4F-91B9-4C8B-A906-06D43CFAFDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{067B0D4F-91B9-4C8B-A906-06D43CFAFDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{067B0D4F-91B9-4C8B-A906-06D43CFAFDC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DF8094-BBFB-4B98-94C9-D23B5B515DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DF8094-BBFB-4B98-94C9-D23B5B515DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DF8094-BBFB-4B98-94C9-D23B5B515DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DF8094-BBFB-4B98-94C9-D23B5B515DE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
