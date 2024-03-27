@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Interfaces", "4_Interface
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_ConexionDB", "5_ConexionDB\5_ConexionDB.csproj", "{067B0D4F-91B9-4C8B-A906-06D43CFAFDC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_DB_Crear_Editar_Eliminar", "6_DB_Crear_Editar_Eliminar\6_DB_Crear_Editar_Eliminar.csproj", "{E3DF8094-BBFB-4B98-94C9-D23B5B515DE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_DB_Crear_Editar_Eliminar", "6_DB_Crear_Editar_Eliminar\6_DB_Crear_Editar_Eliminar.csproj", "{E3DF8094-BBFB-4B98-94C9-D23B5B515DE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Serializacion_de_obajetos_deserializacion_json", "7_Serializacion_de_obajetos_deserializacion_json\7_Serializacion_de_obajetos_deserializacion_json.csproj", "{F27B0269-6C32-42B5-AAF5-7F1298C316A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_Serializacion_de_obajetos_deserializacion_json", "7_Serializacion_de_obajetos_deserializacion_json\7_Serializacion_de_obajetos_deserializacion_json.csproj", "{F27B0269-6C32-42B5-AAF5-7F1298C316A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_Solicitudes_serviciosWeb_por_HTTP_Get", "8_Solicitudes_serviciosWeb_por_HTTP_Get\8_Solicitudes_serviciosWeb_por_HTTP_Get.csproj", "{33CF477A-40AD-451C-B880-0148A2FAEA71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_Solicitudes_serviciosWeb_por_HTTP_Get", "8_Solicitudes_serviciosWeb_por_HTTP_Get\8_Solicitudes_serviciosWeb_por_HTTP_Get.csproj", "{33CF477A-40AD-451C-B880-0148A2FAEA71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Envio__serviciosWeb_Http_POST_PUT_DELETE", "9_Envio__serviciosWeb_Http_POST_PUT_DELETE\9_Envio__serviciosWeb_Http_POST_PUT_DELETE.csproj", "{CA4AE7C8-9CE1-4CE4-956D-6CFBC22444E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{33CF477A-40AD-451C-B880-0148A2FAEA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33CF477A-40AD-451C-B880-0148A2FAEA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33CF477A-40AD-451C-B880-0148A2FAEA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4AE7C8-9CE1-4CE4-956D-6CFBC22444E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4AE7C8-9CE1-4CE4-956D-6CFBC22444E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4AE7C8-9CE1-4CE4-956D-6CFBC22444E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4AE7C8-9CE1-4CE4-956D-6CFBC22444E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
