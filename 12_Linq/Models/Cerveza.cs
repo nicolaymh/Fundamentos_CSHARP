@@ -5,7 +5,7 @@ using Interfaces.Models;
 
 namespace _2_Clases_Objetos_Constructores.Models
 {
-    public class Cerveza : Bebida, IBebidaAlcoholica, IRequestable
+    internal class Cerveza : Bebida, IBebidaAlcoholica, IRequestable
     {
         public int Alcohol { get; set; }
         public string Marca { get; set; }
