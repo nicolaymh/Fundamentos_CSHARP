@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_Envio__serviciosWeb_Http_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Generics", "10_Generics\10_Generics.csproj", "{B531B343-16EB-4B83-B2B9-F3290E2F28C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Linq", "11_Linq\11_Linq.csproj", "{6C9FDB94-8BDA-40B8-9BB1-F1D96728835F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Linq", "11_Linq\11_Linq.csproj", "{6C9FDB94-8BDA-40B8-9BB1-F1D96728835F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Linq", "12_Linq\12_Linq.csproj", "{C162232E-0996-40DB-82E3-60C1CBF0E524}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Linq", "12_Linq\12_Linq.csproj", "{C162232E-0996-40DB-82E3-60C1CBF0E524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Excepciones", "13_Excepciones\13_Excepciones.csproj", "{219F6534-498E-4926-8AEA-9CD3C4C1DC83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{C162232E-0996-40DB-82E3-60C1CBF0E524}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C162232E-0996-40DB-82E3-60C1CBF0E524}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C162232E-0996-40DB-82E3-60C1CBF0E524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219F6534-498E-4926-8AEA-9CD3C4C1DC83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219F6534-498E-4926-8AEA-9CD3C4C1DC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219F6534-498E-4926-8AEA-9CD3C4C1DC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219F6534-498E-4926-8AEA-9CD3C4C1DC83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
